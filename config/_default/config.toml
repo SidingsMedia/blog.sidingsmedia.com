@@ -1,0 +1,16 @@
+baseurl = "https://blog.sidingsmedia.com/"  # Include trailing slash
+copyright = "Copyright © 2023 Sidings Media"
+canonifyurls = true
+paginate = 10
+theme = ["github.com/chipzoller/hugo-clarity"]
+disqusShortname = ""
+
+DefaultContentLanguage = "en"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]

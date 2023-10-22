@@ -1,0 +1,7 @@
+{{- $iconsDir := default "icons/" .Site.Params.iconsDir }}
+{{- $appleTouch := absURL (printf "%s" .Site.Params.appleTouch) }}
+{{- $favicon := absURL (printf "%s" .Site.Params.favicon) }}
+{{- $manifest := absURL (printf "%s" .Site.Params.manifest) }}
+<link rel="apple-touch-icon" sizes="180x180" href="{{ $appleTouch }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ $favicon }}">
+<link rel="manifest" href="{{ $manifest }}">
