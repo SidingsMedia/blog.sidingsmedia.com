@@ -1,0 +1,3 @@
+[submodule "static/logos"]
+	path = static/logos
+	url = git@github.com:SidingsMedia/logo.git
