@@ -1,7 +1,15 @@
-{{- $iconsDir := default "icons/" .Site.Params.iconsDir }}
-{{- $appleTouch := absURL (printf "%s" .Site.Params.appleTouch) }}
-{{- $favicon := absURL (printf "%s" .Site.Params.favicon) }}
-{{- $manifest := absURL (printf "%s" .Site.Params.manifest) }}
-<link rel="apple-touch-icon" sizes="180x180" href="{{ $appleTouch }}">
-<link rel="icon" type="image/png" sizes="32x32" href="{{ $favicon }}">
-<link rel="manifest" href="{{ $manifest }}">
+<!-- 
+SPDX-FileCopyrightText: 2023 Sidings Media <contact@sidingsmedia.com>
+SPDX-License-Identifier: MIT 
+-->
+
+<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/icons/android-chrome-192x192.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+<link rel="manifest" href="/icons/site.webmanifest">
+<link rel="shortcut icon" href="/icons/favicon.ico">
+<meta name="msapplication-TileColor" content="#2b5797">
+<meta name="msapplication-TileImage" content="/icons/mstile-144x144.png">
+<meta name="msapplication-config" content="/icons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">

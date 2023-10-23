@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2023 Sidings Media <contact@sidingsmedia.com>
+# SPDX-License-Identifier: CC0-1.0 
+
 baseURL = 'https://blog.sidingsmedia.com/'
 languageCode = 'en-gb'
 title = 'Sidings Media Blog'

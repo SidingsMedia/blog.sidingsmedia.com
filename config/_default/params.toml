@@ -1,13 +1,18 @@
+# SPDX-FileCopyrightText: 2023 Sidings Media <contact@sidingsmedia.com>
+# SPDX-FileCopyrightText: 2020 Chip Zoller and Dan Weru
+# SPDX-License-Identifier: MIT
+
 enableSearch = true
 
 # socials
 twitter = "@sidingsmedia"
 largeTwitterCard = false # set to true if you want to show a large twitter card image. The default is a small twitter card image
-introDescription = "Technologist, perpetual student, teacher, continual incremental improvement."
-# introURL = "about/" # set the url for the 'read more' button below the introDescription, or set to false to not show the button
-# description = "A theme based on VMware's Clarity Design System for publishing technical blogs with Hugo." # Set your site's meta tag (SEO) description here. Alternatively set this description in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
-# keywords = ["design", "clarity", "hugo theme"] # Set your site's meta tag (SEO) keywords here. Alternatively set these in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
-
+description = "Explore insightful articles, tutorials, and in-depth analysis on a wide range of topics. Stay updated with the latest trends and knowledge in technology, science, and more."
+keywords = ["technology", "blog", "science", "tutorials", "insights", "analysis",
+    "programming", "open source", "networking", "software", "web development",
+    "digital trends", "tech news", "computer science", "data science", "coding",
+    "server management", "it", "innovations", "best practices"
+]
 # limit the number of taxonomies links shown on the sidebar of each page by default.
 numberOfTagsShown = 14 # Applies for all other default & custom taxonomies. e.g categories, brands see https://gohugo.io/content-management/taxonomies#what-is-a-taxonomy
 
@@ -41,8 +46,8 @@ fallBackOgImage = "images/thumbnail.png"
 
 # Logo image
 logo = "logos/rendered/logo-white-horizontal.png"
-favicon = "logos/rendered/logo-white.png"
-appleTouch = "logos/rendered/logo-white.png"
+favicon = "logos/rendered/logo.png"
+appleTouch = "logos/rendered/logo.png"
 
 # center logo on navbar
 centerLogo = false # Set to "true" for centering or "false" for left aligned.

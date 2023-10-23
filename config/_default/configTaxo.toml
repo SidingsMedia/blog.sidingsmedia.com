@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2023 Sidings Media <contact@sidingsmedia.com>
+# SPDX-FileCopyrightText: 2020 Chip Zoller and Dan Weru
+# SPDX-License-Identifier: MIT
+
 timeout = 30000
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"

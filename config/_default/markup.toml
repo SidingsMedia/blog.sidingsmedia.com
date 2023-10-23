@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2020 Chip Zoller and Dan Weru
+# SPDX-License-Identifier: MIT
+
 [goldmark]
   [goldmark.renderer]
     hardWraps = false

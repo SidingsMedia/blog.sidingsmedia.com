@@ -1,5 +1,14 @@
+<!-- 
+SPDX-FileCopyrightText: 2023 Sidings Media <contact@sidingsmedia.com>
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 +++
-author = "Hugo Authors"
-description = "A theme based on VMware's Clarity Design System for publishing technical blogs with Hugo." # Set your site's meta tag (SEO) description here. This overrides any description set in your site configuration.
-keywords = ["design", "clarity", "hugo theme"] # Set your site's meta tag (SEO) keywords here. These override any keywords set in your site configuration.
+author = "Sidings Media"
+description = "Explore insightful articles, tutorials, and in-depth analysis on a wide range of topics. Stay updated with the latest trends and knowledge in technology, science, and more."
+keywords = ["technology", "blog", "science", "tutorials", "insights", "analysis",
+    "programming", "open source", "networking", "software", "web development",
+    "digital trends", "tech news", "computer science", "data science", "coding",
+    "server management", "it", "innovations", "best practices"
+]
 +++
