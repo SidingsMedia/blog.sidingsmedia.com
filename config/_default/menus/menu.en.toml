@@ -3,14 +3,19 @@
 # SPDX-License-Identifier: MIT
 
 [[main]]
-  name = "Home"
+  name = "Posts"
   url = ""
   weight = -110
 
 [[main]]
-  name ="Main Site"
-  url = "https://sidingsmedia.com"
+  name ="About"
+  url = "https://sidingsmedia.com/#about"
   weight = -109
+
+[[main]]
+  name ="Contact"
+  url = "https://sidingsmedia.com/#contact"
+  weight = -108
 
 # social menu links
 
