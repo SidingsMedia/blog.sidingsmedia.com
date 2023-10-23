@@ -1,9 +1,3 @@
-<!-- 
-SPDX-FileCopyrightText: 2023 Sidings Media <contact@sidingsmedia.com>
-SPDX-FileCopyrightText: 2020 Chip Zoller and Dan Weru
-SPDX-License-Identifier: MIT
--->
-
 ---
 title: "{{ replace .Name "-" " " | title }}" # Title of the blog post.
 date: {{ .Date }} # Date of post creation.
@@ -30,4 +24,11 @@ tags:
 # comment: false # Disable comment if false.
 ---
 
+<!-- 
+SPDX-FileCopyrightText: 2023 Sidings Media <contact@sidingsmedia.com>
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 **Insert Lead paragraph here.**
+
+<!--more-->
