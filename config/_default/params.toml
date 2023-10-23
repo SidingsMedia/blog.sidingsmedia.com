@@ -114,6 +114,84 @@ since = 2023
 showRelatedInArticle = true
 showRelatedInSidebar = true
 
+copyright= true
+
+[[Columns]]
+title = "Useful Links"
+  [[Columns.links]]
+  name = "Github"
+  href = "https://github.com/SidingsMedia/"
+  icon = "github"
+  external = true
+
+  [[Columns.links]]
+  name = "Docs"
+  href = "https://docs.sidingsmedia.com"
+  external = true
+
+  [[Columns.links]]
+  name = "RSS"
+  href = "/index.xml"
+  icon = "rss"
+
+[[Columns]]
+title = "Organisation"
+
+  [[Columns.links]]
+  name = "Main Site"
+  href = "https://sidingsmedia.com"
+  external = true
+
+  [[Columns.links]]
+  name = "About"
+  href = "https://sidingsmedia.com/#about"
+  external = true
+
+  [[Columns.links]]
+  name = "Service Status"
+  href = "https://status.sidingsmedia.com"
+  external = true
+
+[[Columns]]
+title = "Legal"
+
+  [[Columns.links]]
+  name = "Disclaimer"
+  href = "https://sidingsmedia.com/legal/disclaimer/"
+  external = true
+
+  [[Columns.links]]
+  name = "Terms of Service"
+  href = "https://sidingsmedia.com/legal/terms/"
+  external = true
+
+  [[Columns.links]]
+  name = "Privacy Policy"
+  href = "https://sidingsmedia.com/legal/privacy/"
+  external = true
+
+[[Columns]]
+title = "Social Media"
+
+  [[Columns.links]]
+  name = "Instagram"
+  href = "https://www.instagram.com/sidingsmedia/"
+  icon = "instagram"
+  external = true
+
+  [[Columns.links]]
+  name = "Facebook"
+  href = "https://www.facebook.com/sidingsmediaofficial"
+  icon = "facebook"
+  external = true
+
+  [[Columns.links]]
+  name = "Twitter"
+  href = "https://twitter.com/SidingsMedia"
+  icon = "twitter"
+  external = true
+
+
 # website author
 [author]
 name = "Sidings Media"

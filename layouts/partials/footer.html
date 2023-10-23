@@ -1,0 +1,49 @@
+<!-- 
+SPDX-FileCopyrightText: 2019 Toma Nistor <GitHub @tomanistor>
+SPDX-FileCopyrightText: 2019 Kai Dinghofer <GitHub @kdevo> 
+SPDX-FileCopyrightText: 2023 Sidings Media
+SPDX-License-Identifier: Apache-2.0
+-->
+
+<!--
+Changes by Sidings Media:
+    Added link columns
+    Removed social links
+-->
+
+<footer>
+    <div class="row center-xs columns">
+    {{ range .Site.Params.Columns -}}
+        <div class="col-xs-2">
+            <ul class="footer-links">
+                <li><h4>{{ .title }}</h4></li>
+                {{ range .links -}}
+                <li>
+                    <a 
+                        href="{{ .href }}" 
+                        {{ if .external}}
+                        target="_blank"
+                        {{ end }}
+                    >
+                    {{ if (isset . "icon")}}
+                    {{ partial "sprite" (dict "icon" .icon) }}
+                    {{ end }}
+                    {{ .name }}
+                </a></li>
+                {{- end }}
+            </ul>
+        </div>
+    {{- end }}
+    </div>
+    {{ if (.Site.Params.copyright) -}}
+    <div class="row center-xs">
+        <div class="col-xs">
+            <small>
+                {{ if .Site.Params.copyright }}
+                    {{ i18n "copyright" }} &copy; {{ now.Format "2006" }} Sidings Media
+                {{ end }}
+            </small>
+        </div>
+    </div>
+    {{- end }}
+</footer>
