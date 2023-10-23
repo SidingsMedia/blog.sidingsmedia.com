@@ -1,0 +1,23 @@
+<!-- 
+SPDX-FileCopyrightText: 2023 Sidings Media <contact@sidingsmedia.com>
+SPDX-FileCopyrightText: 2020 Chip Zoller and Dan Weru
+SPDX-License-Identifier: MIT 
+-->
+
+{{- $t := site.Title -}}
+<a href='{{ absLangURL "" }}' class="nav_brand nav_item{{ with .class }} {{ . }}{{ end }}" title="{{ $t }}">
+  {{- with .logo }}
+  <img src="{{ absURL . }}" class="logo" alt="{{ $t }}">
+  {{- else -}}
+    {{- $t -}}
+  {{- end }}
+  Blog
+  {{- if ne (strings.HasSuffix .class "center") true }}
+  <div class="nav_close">
+    <div>
+      {{- partialCached "sprite" (dict "icon" "open-menu") -}}
+      {{- partial "sprite" (dict "icon" "closeme") -}}
+    </div>
+  </div>
+  {{- end }}
+</a>

@@ -13,6 +13,8 @@ keywords = ["technology", "blog", "science", "tutorials", "insights", "analysis"
     "digital trends", "tech news", "computer science", "data science", "coding",
     "server management", "it", "innovations", "best practices"
 ]
+introDescription = "At Sidings Media, we're tech aficionados on a mission to delve into the world of open-source software, programming, and networking. Our blog is your gateway to insights, tutorials, and collaborative projects that empower your tech journey. Join us in exploring the boundless possibilities of technology!"
+introUrl = "https://sidingsmedia.com/#about"
 # limit the number of taxonomies links shown on the sidebar of each page by default.
 numberOfTagsShown = 14 # Applies for all other default & custom taxonomies. e.g categories, brands see https://gohugo.io/content-management/taxonomies#what-is-a-taxonomy
 
@@ -45,7 +47,7 @@ fontsDir = "fonts/" # without a leading forward slash
 fallBackOgImage = "images/thumbnail.png"
 
 # Logo image
-logo = "logos/rendered/logo-white-horizontal.png"
+logo = "logos/rendered/logo-white.png"
 favicon = "logos/rendered/logo.png"
 appleTouch = "logos/rendered/logo.png"
 
@@ -115,3 +117,4 @@ showRelatedInSidebar = true
 # website author
 [author]
 name = "Sidings Media"
+photo = "logos/rendered/logo-white-horizontal.png"

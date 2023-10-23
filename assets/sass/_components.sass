@@ -13,6 +13,7 @@
   color: $primary-fg-color
   display: flex
   justify-content: space-between
+  height: 4rem
   @include content
   &, &_body
   &_icon
@@ -23,6 +24,9 @@
   &_body
     display: flex
     flex: 1
+    justify-content: space-evenly
+  &_body, &_item
+    padding: 0.5rem 1rem
   &_header
     background-color: $primary-bg-color
     padding: 0 1.5rem
@@ -34,7 +38,6 @@
     font-family: $font-body
     font-weight: 600
     font-size: 1.666rem
-    padding: 0.5rem 1rem
     display: inline-flex
     align-items: center
     letter-spacing: 2px
@@ -116,9 +119,20 @@
     margin: 0
 
   &_brand
+    text-transform: none
+    letter-spacing: -0.06rem
+    padding: 0
+    position: absolute
+    &:hover
+        color: inherit
     img
-      max-width: 15rem
+      max-width: 10em
+      max-height: 4rem
+      width: auto
+      vertical-align: middle
       margin: 0
+      padding: 5px
+      padding-right: 15px
     @media screen and (min-width: $mobile-menu-breakpoint)
       padding-left: 0
       // margin-left: -16rem
@@ -481,9 +495,10 @@
 .author
   &_header
     display: grid
-    grid-template-columns: 3rem 1fr
+    grid-template-columns: 1fr
     grid-gap: 1rem
   &_bio
+    font-size: 20px
     a
       color: $theme
 
