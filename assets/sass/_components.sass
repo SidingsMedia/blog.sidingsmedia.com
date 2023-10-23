@@ -31,9 +31,14 @@
     z-index: 99
     left: 0
   &_item
+    font-family: $font-body
+    font-weight: 600
+    font-size: 1.666rem
     padding: 0.5rem 1rem
     display: inline-flex
     align-items: center
+    letter-spacing: 2px
+    text-transform: uppercase
   &_sub
     width: 100%
     left: 0
@@ -205,6 +210,7 @@
     margin-bottom: 0
   &_link
     line-height: 1
+    margin-top: 0
     > a
       display: block
       line-height: 1.35
@@ -232,6 +238,7 @@
   &_tag
     padding: 0.2rem 0.8rem
     font-size: 0.8rem
+    transition: all .2s ease-out
     &s
       display: none
       &.jswidgetopen
