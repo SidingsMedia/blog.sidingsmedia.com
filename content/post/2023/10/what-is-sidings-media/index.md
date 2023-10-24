@@ -57,9 +57,9 @@ network, so it is only right that I give a little bit back.
 Up until this point, Sidings Media had been little more than a domain
 name with a little website attached, the majority of the services being
 internal to the network. With the idea of sharing knowledge in mind, it
-was time to bring Sidings Media back to it's origins as a platform to
+was time to bring Sidings Media back to its origins as a platform to
 explore technology and share knowledge, although this time not through
 poorly edited videos!
 
 Hopefully that has provided some insight into what Sidings Media
-actually is and I hope you enjoy whats to come.
+actually is and I hope you enjoy what's to come.
