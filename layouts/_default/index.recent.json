@@ -1,0 +1,9 @@
+{{- $posts := where .Site.RegularPages "Type" "in" site.Params.mainSections }}
+[ {{ range $index, $item := first 15 $posts }}{{if $index}}, {{end}}
+    {
+    "title": "{{ .Title }}",
+    "url": "{{ if isset .Params "redirect" }}{{ .Params.redirect }}{{ else }}{{ .Permalink }}{{ end }}",
+    "date": "{{ .Date.Format (default "Jan 2, 2006" $.Site.Params.dateFormat) }}",
+    "time": "{{ T "reading_time" . }}"
+    }{{ end }}
+]

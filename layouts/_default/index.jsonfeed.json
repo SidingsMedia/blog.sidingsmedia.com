@@ -1,0 +1,24 @@
+{{- $posts := where .Site.RegularPages "Type" "in" site.Params.mainSections }}
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "{{ .Site.Title }}",
+   "home_page_url": "{{ .Permalink }}",
+   "feed_url": "{{ .Permalink }}feed.json",
+   "favicon": "{{ .Permalink }}icons/android-chrome-192x192.png",
+   "author": {
+     "url": "htttps://sidingsmedia.com",
+     "name": "Sidings Media"
+   },
+   "items": [ {{ range $index, $item := first 15 $posts }}{{if $index}}, {{end}}
+      {
+       "id": "{{ .Permalink }}",
+       "title": "{{ .Title }}",
+       "url": "{{ if isset .Params "redirect" }}{{ .Params.redirect }}{{ else }}{{ .Permalink }}{{ end }}",
+       "content_html": "{{ replace .Content "\n" "\\n" | replaceRE "\"" "\\\"" | replaceRE "\t" "\\t"}}{{ if isset .Params "redirect" }}<p><a href=\"{{ .Permalink }}\">Read on site</a></p>{{ end }}",
+       "summary": "{{ replace .Summary "\n" "\\n" | replaceRE "\"" "\\\"" }}",
+       {{ if isset .Params "thumbnail" }}"image": "{{ .Permalink }}{{ .Params.thumbnail}}",{{ end }}
+       "date_published": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+       "date_modified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}"
+     }{{ end }}
+   ]
+}
