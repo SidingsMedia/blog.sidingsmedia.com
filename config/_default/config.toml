@@ -16,5 +16,16 @@ category = "categories"
 tag = "tags"
 series = "series"
 
+[outputFormats.jsonfeed]
+baseName = 'feed'
+isPlainText = true
+mediaType = 'application/json'
+
+[outputFormats.recent]
+baseName = 'recent'
+isPlainText = true
+mediaType = 'application/json'
+
+
 [outputs]
-home = ["HTML", "RSS", "JSON"]
+home = ["HTML", "RSS", "JSON", "jsonfeed", "recent"]
