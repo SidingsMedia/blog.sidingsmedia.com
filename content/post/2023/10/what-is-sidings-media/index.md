@@ -1,7 +1,7 @@
 ---
 title: "What is Sidings Media?" # Title of the blog post.
 date: 2023-10-24T18:09:20+02:00 # Date of post creation.
-author: "Matthew Nickson"
+author: "Zoe Nickson"
 description: "An introduction to Sidings Media and what it's purpose is." # Description used for search engine.
 featured: true # Sets if post is a featured post, making appear on the home page side bar.
 draft: false # Sets whether to render this page. Draft of true will not be rendered.
